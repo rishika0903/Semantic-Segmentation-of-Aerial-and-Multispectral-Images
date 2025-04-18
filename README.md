@@ -8,17 +8,19 @@ Based on a modified UAVid dataset, aerial images are segmented using a combinati
 **Multispectral Image Segmentation**
 Using the RIT-18 dataset, which includes images with multiple spectral bands (e.g., NIR, Red Edge), a U-Net architecture was used. The U-Net is customized to handle the additional spectral channels, improving segmentation performance on vegetation and land classification tasks.
 
-🧠** Models Used**
+🧠**Models Used**
 DeepLabV3 + ResNet50 for aerial (UAVid) segmentation
 
 U-Net for multispectral (RIT-18) segmentation
 
-🗂️** Datasets**
-Modified UAVid Dataset for aerial imagery
+🗂️**Datasets**
+**1)Modified UAVid Dataset for aerial imagery**
 (High-resolution drone images with pixel-level annotations for urban environments)
+Link: https://www.kaggle.com/datasets/giavuongnguyen/modified-uavid-dataset/data
 
-RIT-18 Dataset for multispectral segmentation
+**2) RIT-18 Dataset for multispectral segmentation**
 (Includes 6-band multispectral imagery for land cover classification)
+Link : https://github.com/rmkemker/RIT-18
 
 ⚙️ **Features**
 - Custom preprocessing pipelines for RGB and multispectral inputs
